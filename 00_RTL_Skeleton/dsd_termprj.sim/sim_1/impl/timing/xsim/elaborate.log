@@ -1,0 +1,27 @@
+Vivado Simulator v2023.1
+Copyright 1986-2022 Xilinx, Inc. All Rights Reserved.
+Copyright 2022-2023 Advanced Micro Devices, Inc. All Rights Reserved.
+Running: C:/Xilinx/Vivado/2023.1/bin/unwrapped/win64.o/xelab.exe --incr --debug typical --relax --mt 2 --maxdelay -L xil_defaultlib -L xilinx_vip -L simprims_ver -L secureip --snapshot top_mlp_tb_time_impl -transport_int_delays -pulse_r 0 -pulse_int_r 0 -pulse_e 0 -pulse_int_e 0 xil_defaultlib.top_mlp_tb xil_defaultlib.glbl -log elaborate.log 
+Using 2 slave threads.
+Starting static elaboration
+Pass Through NonSizing Optimizer
+WARNING: [VRFC 10-3091] actual bit length 13 differs from formal bit length 32 for port 'x_buf_addr' [C:/Users/joshu/Documents/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/sources_1/new/top_mlp.v:68]
+WARNING: [VRFC 10-3091] actual bit length 15 differs from formal bit length 32 for port 'w_buf_addr' [C:/Users/joshu/Documents/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/sources_1/new/top_mlp.v:71]
+WARNING: [VRFC 10-3091] actual bit length 13 differs from formal bit length 7 for port 'local_buf_addr' [C:/Users/joshu/Documents/DSD25_Termproject_Materials_Updated250519/00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/sources_1/new/top_mlp.v:102]
+Completed static elaboration
+Starting simulation data flow analysis
+Completed simulation data flow analysis
+Time Resolution for simulation is 1ps
+Compiling module xil_defaultlib.glbl_ctrl_default
+Compiling module simprims_ver.DSP48E1(ACASCREG=0,ADREG=0,ALUMO...
+Compiling module xil_defaultlib.dsp_macro_0
+Compiling module xil_defaultlib.MAC_ver2
+Compiling module xil_defaultlib.last_pu
+Compiling module xil_defaultlib.post_input
+Compiling module xil_defaultlib.pu(OUT_BUF_ADDR_WIDTH=9)
+Compiling module xil_defaultlib.single_port_bram(WIDTH=8,DEPTH=7...
+Compiling module xil_defaultlib.single_port_bram(WIDTH=8,DEPTH=1...
+Compiling module xil_defaultlib.top_mlp_default
+Compiling module xil_defaultlib.top_mlp_tb
+Compiling module xil_defaultlib.glbl
+Built simulation snapshot top_mlp_tb_time_impl

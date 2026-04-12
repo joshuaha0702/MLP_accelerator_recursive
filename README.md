@@ -47,7 +47,7 @@ To verify simulation output, refer to the provided .tcl scripts.
 They allow you to observe output values along with their corresponding address locations.
 
 ## Project Directory Structure
-- Verilog source code: /srcs/sources_1/imports/
+- Verilog source code: ./00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/
 
 ## License
 This project is provided as-is for academic and prototyping purposes.
@@ -100,7 +100,7 @@ This project is provided as-is for academic and prototyping purposes.
 - .tcl 파일을 확인하면 출력값 및 해당 시점의 메모리 주소값을 확인할 수 있음.
 
 ## 프로젝트 구조
-- Verilog 코드 위치: /srcs/sources_1/imports/
+- Verilog 코드 위치: ./00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/
 
 ## 라이선스
 본 프로젝트는 학습 및 프로토타이핑 용도로 자유롭게 사용 가능합니다.
