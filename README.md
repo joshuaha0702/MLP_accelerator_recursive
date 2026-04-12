@@ -102,5 +102,8 @@ This project is provided as-is for academic and prototyping purposes.
 ## 프로젝트 구조
 - Verilog 코드 위치: ./00_RTL_Skeleton/dsd_termprj.srcs/sources_1/imports/
 
+## 실행방법
+- vivado 실행후 open project -> dsd_termprj.xpr실행
+
 ## 라이선스
 본 프로젝트는 학습 및 프로토타이핑 용도로 자유롭게 사용 가능합니다.
