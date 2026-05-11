@@ -31,7 +31,13 @@ workspace/**/Release/
 *.hdf
 *.xsa
 *.mmi
+*.out
 
 # OS generated files
 .DS_Store
 Thumbs.db
+
+# Reference
+Reference_sw/mnist_testset_txt_per_pixel
+Reference_sw/save_data
+Reference_sw/INT8_weight
